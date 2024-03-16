@@ -18,13 +18,13 @@ export const Header = () => {
     <div>
         <div className=" flex   " >
             <div className=" flex mt-10 md:flex md:mt-14 md:space-x-3 ml-[100px] lg:ml-[200px] xl:ml-[350px] 2xl:ml-[550px]">
-                <a className="mr-1 ml-[-80px]" href="" target="_blank" rel="noopener noreferrer">
+                <a className="mr-1 ml-[-80px]" href="https://www.instagram.com/carlosjr2110" target="_blank" rel="noopener noreferrer">
                     <SocialLogo img={instagram.src}/>
                 </a>
                 <a className="mr-1" href="https://www.linkedin.com/in/carlos-humberto-chaves-jr-b98ba71b9" target="_blank" rel="noopener noreferrer">
                     <SocialLogo img={linkedin.src}/>
                 </a>
-                <a className="mr-1" href="">
+                <a className="mr-1" href="https://www.github.com/carlosjr2110">
                     <SocialLogo img={git.src}/>
                 </a>
                 <a className="mr-1" href={getWhatsAppLink()} target="_blank" rel="noopener noreferrer">
