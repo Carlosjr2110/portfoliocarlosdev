@@ -28,7 +28,7 @@ const openModal = (id: number) => {
             <div className="grid grid-flow-col grid-rows-8 p-5 bg-[#003a9b] rounded-md md:p-10 md:grid-rows-3 md:gap-x-20 md:gap-y-14 ">
               
                {projectList.map(item => (
-               <Projetos key={item.id} onClick={()=> {openModal(item.id)}} label={item.name}/>
+               <Projetos key={item.id} onClick={()=> {openModal(item.id)}} onTouchMove={()=>{openModal(item.id)}} label={item.name}/>
                ))}
                
             </div>
