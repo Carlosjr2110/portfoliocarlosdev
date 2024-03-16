@@ -35,14 +35,14 @@ const [transitioning, setTransitioning] = useState(false)
         <div>
             <div>
                 <div className=" fixed left-0 top-0 right-0 bottom-0 flex justify-center items-center bg-white/60 ">
-                <button onClick={goToPrevSlide} className="inline-block absolute top-52 md:bottom-[200px] md:relative  " >
+                <button onClick={goToPrevSlide} className="inline-block absolute top-[400px] md:top-[710px]   " >
                   <img className="w-8 h-8" src={seta_e.src} alt="" />
                 </button>
                 <img src={`/assets/${fotos[currentIndex]}`} alt="Imagem" className={`modal-image ${transitioning ? "transitioning" : "" } w-[300px] h-[150px] rounded-l md:w-[1000px] md:h-[450px] `}   />
-                <button onClick={goToNextSlide} className="inline-block absolute top-52  md:bottom-[200px] md:relative" >
+                <button onClick={goToNextSlide} className="inline-block absolute bottom-[395px]  md:bottom-[700px] " >
                   <img className="w-8 h-8" src={seta_d.src} alt="" />
                 </button>
-                <div onClick={closeModal} className=" inline-block absolute top-52 left-[280px] cursor-pointer md:reative  md:bottom-[300px] md:left-[500px]">
+                <div onClick={closeModal} className=" inline-block absolute top-[205px] left-[320px] cursor-pointer md:left-[1450px] md:top-[215px]  ">
                   <img className="w-8 h-8 " src={fechar.src} alt="" />
                 </div>
             </div>      

@@ -38,9 +38,9 @@ export const Main = () => {
            
             <div className="flex justify-center items-start mt-5 text-white font-semibold md:mt-14 md:text-[25px] ">
                 <div className="flex space-x-4 md:space-x-28">
-                    <div onClick={HandleQuemSou} className="cursor-pointer hover:underline">QUEM SOU</div>
-                    <div onClick={HandlePerfil} className="cursor-pointer hover:underline">O QUE FAÇO</div>
-                    <div onClick={HandlePortFolio} className="cursor-pointer hover:underline">PORTFÓLIO</div>
+                    <button onClick={HandleQuemSou} className="cursor-pointer hover:underline">QUEM SOU</button>
+                    <button onClick={HandlePerfil} className="cursor-pointer hover:underline">O QUE FAÇO</button>
+                    <button onClick={HandlePortFolio} className="cursor-pointer hover:underline">PORTFÓLIO</button>
                 </div>
             </div>
             
