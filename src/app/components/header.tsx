@@ -24,7 +24,7 @@ export const Header = () => {
                 <a className="mr-1" href="https://www.linkedin.com/in/carlos-humberto-chaves-jr-b98ba71b9" target="_blank" rel="noopener noreferrer">
                     <SocialLogo img={linkedin.src}/>
                 </a>
-                <a className="mr-1" href="https://www.github.com/carlosjr2110">
+                <a className="mr-1" href="https://www.github.com/carlosjr2110 " target="_blank" rel="noopener noreferrer">
                     <SocialLogo img={git.src}/>
                 </a>
                 <a className="mr-1" href={getWhatsAppLink()} target="_blank" rel="noopener noreferrer">
