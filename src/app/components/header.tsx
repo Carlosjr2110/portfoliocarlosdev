@@ -35,7 +35,7 @@ export const Header = () => {
                 </div>
             </div>
             <div className="">
-            <div className=" md:ml-[100px] md:h-full w-full md:mt-14">
+            <div className=" invisible md:visible md:ml-[100px] md:h-full md:w-full md:mt-14 ">
                     <Cube logo={logo.src} width="80px" height="80px" transform="40px"/>
             </div>
             </div>
