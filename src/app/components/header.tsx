@@ -67,7 +67,7 @@ export const Header = () => {
                 </div>
             </div>
             <div className="">
-            <div className=" mt-8 md:mt-12 lg:mt-14 lg:ml-[150px]  ">
+            <div className=" mt-8 ml-[-40px] md:mt-12 lg:mt-14 lg:ml-[150px]  ">
                     <Cube logo={logo.src} width={cubeSize.width} height={cubeSize.height} transform={cubeSize.transform}/>
             </div>
             </div>
