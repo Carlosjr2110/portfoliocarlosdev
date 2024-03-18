@@ -36,17 +36,17 @@ export const Main = () => {
     return (
         <div>
            
-            <div className="flex justify-center items-start mt-5 text-white font-semibold md:mt-14 md:text-[25px] ">
-                <div className="flex space-x-4 md:space-x-28">
-                    <button onClick={HandleQuemSou} onTouchMove={HandleQuemSou} className="cursor-pointer hover:underline">QUEM SOU</button>
-                    <button onClick={HandlePerfil} onTouchMove={HandlePerfil} className="cursor-pointer hover:underline">O QUE FAÇO</button>
-                    <button onClick={HandlePortFolio} onTouchMove={HandlePortFolio} className="cursor-pointer hover:underline">PORTFÓLIO</button>
+            <div className="flex justify-center items-start mt-5 text-white font-semibold md:mt-10 md:text-[25px] lg:mt-14 lg:text[40px] ">
+                <div className="flex space-x-4 md:space-x-28 z-10">
+                    <button onClick={HandleQuemSou} onTouchMove={HandleQuemSou} className=" hover:underline">QUEM SOU</button>
+                    <button onClick={HandlePerfil} onTouchMove={HandlePerfil} className=" hover:underline">O QUE FAÇO</button>
+                    <button onClick={HandlePortFolio} onTouchMove={HandlePortFolio} className=" hover:underline">PORTFÓLIO</button>
                 </div>
             </div>
             
-            <div className="flex justify-center">
-                <div className="w-[700px] h-[600px] mt-[-20px] bg-cover bg-center bg-[url(./assets/images/telacel.png)] md:bg-[url(./assets/images/note.png)]  md:w-[900px] md:h-[800px]  md:mt-[-20px] "></div>
-                <div className={`flex absolute justify-center items-center mt-[30px] w-[215px] h-[500px] rounded-md bg-white md:mt-[92px] md:w-[857px] md:h-[476px]`}>
+            <div className="relative flex justify-center">
+                <div className="w-[700px] h-[600px] mt-[-20px] bg-cover bg-center bg-[url(./assets/images/telacel.png)] md:bg-[url(./assets/images/note.png)]  md:w-[900px] md:h-[800px]  md:mt-[-60px] "></div>
+                <div className={`flex absolute x-20 justify-center items-center mt-[30px] w-[215px] h-[500px] rounded-md bg-white md:mt-[53px] md:w-[857px] md:h-[476px]`}>
                     <div>{showQuemSou &&
                     <Quemsou></Quemsou>
                     }</div>

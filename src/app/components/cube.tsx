@@ -5,7 +5,7 @@ type Props = {
   logo: string,
   width: string;
   height: string;
-  transform: string;
+  transform: any;
 }
 
 export const Cube = ({logo, width, height, transform,}: Props) => {
