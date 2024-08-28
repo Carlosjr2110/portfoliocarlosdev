@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "Hello, I'm Carlos Jr.",
+    "subtitle": "Full Stack Developer"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a full stack developer with experience in building web applications using modern technologies. On the front-end, I typically work with TypeScript and React.js. I have solid knowledge of the Next.js framework, which allows me to efficiently manage both front-end and back-end. For applications that require more complex back-end functionality, I use Node.js. Additionally, I have experience with relational databases, including PostgreSQL and MySQL. I have strong expertise in consuming RESTful and GraphQL APIs, integrating data from various sources to build robust and scalable web applications."
+  },
+  "projects": {
+    "title": "Projects",
+    "project1": {
+      "title": "Memo Game",
+      "description": "Memory game developed in Next.js, React.js, and TypeScript. The game features a scoring system that is stored in a database and generates a ranking of the top 10 players. The front-end and back-end are managed together by Next.js.",
+      "label": "Play"
+    },
+    "project2": {
+      "title": "BMI Calculator",
+      "description": "Web application where, by entering your weight and height, the calculator informs you of your Body Mass Index. Project made with React.js and TypeScript.",
+      "label": "Access"
+    },
+    "project3": {
+      "title": "Pop-it Digital Game",
+      "description": "Mobile pop-it game developed in Next.js, React.js, and TypeScript. The game involves pressing the buttons that become active within a time limit, with phases that advance and become more challenging with each level.",
+      "label": "Access"
+    },
+    "project4": {
+      "title": "Premia Kids",
+      "description": "Project under development. It will be a web application. The front-end is being built with Next.js, React.js, and TypeScript. The back-end is completed with Node.js and the database is in PostgreSQL. The application will be an incentive for children's daily tasks, with scoring, rewards, and more.",
+      "label": "Coming soon"
+    },
+    "project5": {
+      "title": "Digital Drum",
+      "description": "Web application developed in Next.js, React.js, and TypeScript. It is a digital drum set that can be played with clicks or via the keyboard. You can also create a composition and play it automatically.",
+      "label": "Access"
+    },
+    "project6": {
+      "title": "Forms",
+      "description": "Examples of forms developed for web applications using React.js and TypeScript. These are forms with field validation and data submission to the back-end using Axios.",
+      "label": "View"
+    },
+    "project7": {
+      "title": "Web Pages",
+      "description": "Examples of web pages developed using React.js and Tailwind.",
+      "label": "View"
+    }
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "contact": {
+    "title": "Contact"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import App from "./page";
-
-
-
 
 export const metadata: Metadata = {
-  title: "CarlosJr Dev Portfolio",
+  title: "Portfolio Carlos Jr. Dev",
 };
+
+
 
 export default function RootLayout({
   children,
@@ -15,10 +13,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-br">
-      <body>
-        <App/>
-      </body>
+    <html lang="en">
+      <body>{children}</body>
     </html>
   );
 }

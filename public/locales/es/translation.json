@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "title": "Hola, soy Carlos Jr.",
+    "subtitle": "Desarrollador Full Stack"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "description": "Soy un desarrollador full stack con experiencia en la construcción de aplicaciones web utilizando tecnologías modernas. En el front-end, suelo trabajar con TypeScript y React.js. Tengo un conocimiento sólido del framework Next.js, que me permite gestionar tanto el front-end como el back-end de manera eficiente. Para aplicaciones que requieren mayor complejidad en el back-end, utilizo Node.js. Además, tengo experiencia con bases de datos relacionales, incluyendo PostgreSQL y MySQL. Tengo un excelente conocimiento en el consumo de APIs RESTful y GraphQL, integrando datos de diversas fuentes para construir aplicaciones web robustas y escalables."
+  },
+  "projects": {
+    "title": "Proyectos",
+    "project1": {
+      "title": "Memo Game",
+      "description": "Juego de memoria desarrollado en Next.js, React.js y TypeScript. El juego cuenta con un sistema de puntuación que se almacena en una base de datos y genera un ranking de los 10 mejores jugadores. El front-end y el back-end se gestionan juntos con Next.js.",
+      "label": "Jugar"
+    },
+    "project2": {
+      "title": "Calculadora IMC",
+      "description": "Aplicación web donde, ingresando tu peso y altura, la calculadora te informa sobre tu Índice de Masa Corporal. Proyecto realizado con React.js y TypeScript.",
+      "label": "Acceder"
+    },
+    "project3": {
+      "title": "Juego Pop-it Digital",
+      "description": "Juego de pop-it para móviles desarrollado en Next.js, React.js y TypeScript. El juego consiste en presionar los botones que se activan dentro de un límite de tiempo, con fases que avanzan y se vuelven más desafiantes en cada nivel.",
+      "label": "Acceder"
+    },
+    "project4": {
+      "title": "Premia Kids",
+      "description": "Proyecto en desarrollo. Será una aplicación web. El front-end se está construyendo con Next.js, React.js y TypeScript. El back-end está terminado con Node.js y la base de datos está en PostgreSQL. La aplicación será un incentivo para las tareas diarias de los niños, con puntuaciones, premios, y más.",
+      "label": "Próximamente"
+    },
+    "project5": {
+      "title": "Batería Digital",
+      "description": "Aplicación web desarrollada en Next.js, React.js y TypeScript. Es una batería digital que se puede tocar con clics o a través del teclado. También es posible crear una composición y tocarla automáticamente.",
+      "label": "Acceder"
+    },
+    "project6": {
+      "title": "Formulario",
+      "description": "Ejemplos de formularios desarrollados para aplicaciones web utilizando React.js y TypeScript. Son formularios con validación de campos y envío de datos al back-end utilizando Axios.",
+      "label": "Ver"
+    },
+    "project7": {
+      "title": "Páginas Web",
+      "description": "Ejemplos de páginas web desarrolladas utilizando React.js y Tailwind.",
+      "label": "Ver"
+    }
+  },
+  "skills": {
+    "title": "Habilidades"
+  },
+  "contact": {
+    "title": "Contacto"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

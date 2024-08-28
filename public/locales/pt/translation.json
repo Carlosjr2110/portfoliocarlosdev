@@ -1,0 +1,58 @@
+{
+  "hero": {
+    "title": "Olá, eu sou Carlos Jr.",
+    "subtitle": "Desenvolvedor Full Stack"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description": "Sou um desenvolvedor full stack com experiência na construção de aplicações web utilizando tecnologias modernas. No front-end, costumo trabalhar com TypeScript e React.js. Tenho um sólido conhecimento do framework Next.js, que me permite gerenciar tanto o front-end quanto o back-end de forma eficiente. Para aplicações que exigem maior complexidade no back-end, utilizo Node.js. Além disso, tenho experiência com bancos de dados relacionais, incluindo PostgreSQL e MySQL. Tenho ótimos conhecimentos no consumo de APIs RESTful e GraphQL, integrando dados de diversas fontes para construir aplicações web robustas e escaláveis. "
+  },
+  "projects": {
+    "title": "Projetos",
+    "project1": {
+      "title": "Memo Game",
+      "description": "Jogo da memória desenvolvido em Nextjs, Reactjs e Typescript. O jogo possui um sistema de pontuação que é armazenada em um banco de dados e gera um ranking dos 10 melhores colocados. O frontend e o backend estão juntos, gerenciados pelo próprio Next. ",
+      "label": "Jogar"
+    },
+    "project2": {
+      "title": "Calculadora IMC",
+      "description": "Aplicativo web onde colocando seu peso e altura, a calculadora informa o seu índice de massa corporea. Projeto feito em Reactjs com Typescript. ",
+      "label": "Acessar"
+    },
+    "project3": {
+    "title": "Jogo Pop-it Digital",
+    "description": "Jogo de pop-it para mobile desenvolvido em Nextjs, Reactjs e Typescript. O jogo consiste em apertar os botões que ficam ativos, com um tempo limite e fases que avançam e dificultam a cada nível. ",
+    "label": "Acessar"
+  },
+    "project4": {
+      "title": "Premia Kids",
+      "description": "Projeto em desenvolvimento. Será um aplicativo web. O front-end está sendo feito em Nextjs, Reactjs e Typescript. O back-end está finalizado em Nodejs e o banco de dados em PostgreSQL. O aplicativo será um incentivo para as tarefas do dia-a-dia das crianças, com pontuação, prêmios, etc. ",
+      "label": "Em breve"
+    },
+    "project5": {
+      "title": "Bateria Digital ",
+      "description": "Aplicativo web desenolvido em Nextjs, Reactjs e Typescript. É uma bateria digital que pode ser tocada com cliques ou através do teclado. Também é possível fazer uma composição e tocar de forma automática.",
+      "label": "Acessar"
+    },
+    "project6": {
+    "title": "Formulários",
+    "description": "Exemplos de formulários desenvolvidos para aplicações web utilizando Reactjs e Typescript. São formulários com validação de campos e envio de dados ao back-end utilizando axios.",
+    "label": "Ver"
+  },
+  "project7": {
+    "title": "Páginas web",
+    "description": "Exemplos de páginas web desenvolvidas utilizando Reactjs e Tailwind.",
+    "label": "Ver"
+  }
+  },
+  "skills": {
+    "title": "Habilidades"
+    
+  },
+  "contact": {
+    "title": "Contato"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados."
+  }
+}
