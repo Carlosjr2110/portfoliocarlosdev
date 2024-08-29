@@ -41,7 +41,7 @@ useEffect(() => {
 }, []);
 
 if (!isClient) {
-  return null; // ou algum fallback para renderizar no lado do servidor
+  return null; 
 }
 
 
@@ -93,7 +93,7 @@ return (
         <a href="https://github.com/carlosjr2110" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} style={{ color: theme.contactLinksColor }}/>
         </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://linkedin.com/in/carlosjrdev" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} style={{ color: theme.contactLinksColor }}/>
         </a>
         
