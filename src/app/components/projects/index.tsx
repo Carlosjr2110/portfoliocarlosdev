@@ -48,7 +48,7 @@ export const Projects = () => {
       {
         title: t('projects.project3.title'),
         description: t('projects.project3.description'),
-        link: 'https:/pop-it-five.vercel.app',
+        link: 'https://pop-it-five.vercel.app',
         label: t('projects.project3.label')
       },
       {
@@ -139,13 +139,15 @@ export const Projects = () => {
           {projects.map((project, index) => (
             <SwiperSlide key={index}>
               <C.ProjectCard>
+                <C.ProjectContent>
                 <C.ProjectTitle>{project.title}</C.ProjectTitle>
                 <C.ProjectDescription>{project.description}</C.ProjectDescription>
                 {project.link ? (
                 <Button label={t(project.label)} link={project.link} />
               ) : project.images ? (
                 <Button label={t(project.label)} onClick={() => handleOpenModal(project.images!)} />
-              ) : null}             
+              ) : null} 
+              </C.ProjectContent>        
               </C.ProjectCard>
             </SwiperSlide>
           ))}

@@ -1,6 +1,6 @@
 import * as C from './style';
 import logo from '../../../../public/assets/LogoDev.png'
-import photo from '../../../../public/assets/1721826821225.png';
+import photo from '../../../../public/assets/foto2.png';
 
 export const Photo = () => (
   <C.Container>

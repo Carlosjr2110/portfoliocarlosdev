@@ -23,41 +23,39 @@ export const CarouselWrapper = styled.div`
   }
 `;
 
-
-
 export const ProjectCard = styled.div`
  display: flex;
   flex-direction: column;
   justify-content: space-between;
   background: #282c34;
   background: #4b5563;
-
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease, border 0.3s ease; 
   border: 2px solid transparent;
   height: 100%; 
   min-height: 250px;
+  overflow: hidden; /* Evita que o conteúdo ampliado saia do card */
 
 
   &:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais forte para dar a impressão de estar mais próximo */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); 
     background: #282c34;
-      
-      color: #ffffff; 
-    
-    
-     p {
-      color: #ffffff;
+    color: #ffffff;
+
+    /* Aplica o efeito de aumento somente ao conteúdo interno */
+    & > div {
+      transform: scale(1.05);
     }
   }
-
 
   @media (max-width: 480px) {
     padding: 10px;
   }
+`;
+
+export const ProjectContent = styled.div`
+  transition: transform 0.3s ease; /* Efeito de zoom suave */
 `;
 
 export const ProjectTitle = styled.h3`

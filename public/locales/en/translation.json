@@ -31,7 +31,7 @@
     },
     "project5": {
       "title": "Digital Drum",
-      "description": "Web application developed in Next.js, React.js, and TypeScript. It is a digital drum set that can be played with clicks or via the keyboard. You can also create a composition and play it automatically.",
+      "description": "Pop-it game for mobile developed in Next.js, React.js, and TypeScript. The game consists of pressing the buttons that become active, with a time limit and phases that advance and become more challenging with each level. Mobile application, access it on your phone to play.",
       "label": "Access"
     },
     "project6": {

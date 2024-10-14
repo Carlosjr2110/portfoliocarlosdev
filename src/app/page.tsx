@@ -1,6 +1,6 @@
 'use client'
 
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedin, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as C from './page.style';
@@ -96,9 +96,11 @@ return (
         <a href="https://linkedin.com/in/carlosjrdev" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} style={{ color: theme.contactLinksColor }}/>
         </a>
-        
         <a href="mailto:carloshumberto2110@gmail.com">
           <FontAwesomeIcon icon={faEnvelope} style={{ color: theme.contactLinksColor }} />
+        </a>
+        <a href="https://wa.me/5511930258999" target="_blank" rel="noopener noreferrer">
+        <FontAwesomeIcon icon={faWhatsapp} style={{ color: theme.contactLinksColor }} />
         </a>
       </C.ContactLinks>
     </C.ContactSection>

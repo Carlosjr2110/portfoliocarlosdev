@@ -21,7 +21,7 @@
     },
     "project3": {
       "title": "Juego Pop-it Digital",
-      "description": "Juego de pop-it para móviles desarrollado en Next.js, React.js y TypeScript. El juego consiste en presionar los botones que se activan dentro de un límite de tiempo, con fases que avanzan y se vuelven más desafiantes en cada nivel.",
+      "description": "Juego de pop-it para móviles desarrollado en Next.js, React.js y TypeScript. El juego consiste en presionar los botones que se activan dentro de un límite de tiempo, con fases que avanzan y se vuelven más desafiantes en cada nivel. Aplicación para móviles, accede desde tu celular para jugar.",
       "label": "Acceder"
     },
     "project4": {
